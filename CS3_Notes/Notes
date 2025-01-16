@@ -1,0 +1,43 @@
+// Pass by reference (official wording from nesty) - i didn't get an official wording wtf
+
+for(const auto e: a)
+
+// const make e const
+// esentially locking in e as a certain type (int, double, etc.)
+
+for (const auto &e: a)
+
+//
+
+for (auto &e: a)
+    e = 55;
+
+//sets all of a to 55
+
+//Function Invocation - 
+//Function Call -
+//Function Definition -
+//Function Declaration -
+
+//Client Def - A function that invokes a function under consideration
+
+int& b = a;
+
+//Known as an AMPERSAND
+
+a = b + 2
+
+//Lvalue is a (Left hand value)
+//Rvalue is b + 2 (Right hand value)
+
+//You can have a function return a reference, meaning it is an L value
+
+// += is a compund addition (assignment) (which ever tckles your fancy)
+
+// * is dereference, 
+
+// & points to adress, reference to
+
+//nullptr - denotes a pointer to be unallocated
+
+//Static Variables - are initialized only once and retain their value across the function incovations
