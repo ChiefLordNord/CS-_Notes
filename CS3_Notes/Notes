@@ -41,3 +41,6 @@ a = b + 2
 //nullptr - denotes a pointer to be unallocated
 
 //Static Variables - are initialized only once and retain their value across the function incovations
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
