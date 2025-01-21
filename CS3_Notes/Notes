@@ -42,5 +42,40 @@ a = b + 2
 
 //Static Variables - are initialized only once and retain their value across the function incovations
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------
 
+//Modularity - Easily seperatable into logical parts
+
+//Object - A variable or type of class
+
+//Class - Aggregates both data and code
+
+//Aggregate - To gather, collect, or assemble
+
+//Members - Variables and Functions Declared in a class
+
+//Member Variable - Variable declared in a class definition
+
+//Member Function - Function declared in a class definition
+
+//Public Members - 
+
+//Private Members - 
+
+//Friend Function - 
+
+int a[10] = {55}; //First element is 55, rest is 0
+
+//UML (Unified Nodeling Language) - Diagrams that is used for simplicity and used in not quite Computer Science term
+
+//Accessor Member Function (inspector) - does not change the state of the object
+
+//Mutator Member Function (modifier) - changes the state of the function
+
+//Object-Based Programming - using objects in programming but no inheritence (extended/derived classes)
+
+//Features - member variables and member functions
+    -Class Attributes - Member Variables
+    -Class Operators - Member Function
+
+//
