@@ -78,4 +78,34 @@ int a[10] = {55}; //First element is 55, rest is 0
     -Class Attributes - Member Variables
     -Class Operators - Member Function
 
-//
+-----------------------------------------------------------------------------------------------------
+
+//Why Dynamic Memory? - 
+
+//Copy Constructor - Initializes a new object using an existing object of the same class
+
+//Destructor - 
+
+//Overloaded Assignment - 
+
+//This - A pointer to an object which the pointer function is involved
+
+//Object State - The value of all the member variables
+
+//Shallow Copy - memberwise copying of objct attributes (may be no good in case object has dynamically allocated members
+                 and 
+                     Passing of object by reference
+                     Returning an object
+                     Object assignment
+
+//Deep Copy - recursive (including attributes) copying of entire object
+
+//Implicit type conversion - 
+
+//Explicit Type Converstion - 
+
+//Initalizer - 
+
+//Copy and Swap Idiom - Common idiom to implement overloafed assignment
+
+//Idiom - Techniques
