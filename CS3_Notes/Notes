@@ -93,10 +93,10 @@ int a[10] = {55}; //First element is 55, rest is 0
 //Object State - The value of all the member variables
 
 //Shallow Copy - memberwise copying of objct attributes (may be no good in case object has dynamically allocated members
-                 and 
-                     Passing of object by reference
-                     Returning an object
-                     Object assignment
+//               and 
+//                   Passing of object by reference
+//                   Returning an object
+//                   Object assignment
 
 //Deep Copy - recursive (including attributes) copying of entire object
 
@@ -109,3 +109,18 @@ int a[10] = {55}; //First element is 55, rest is 0
 //Copy and Swap Idiom - Common idiom to implement overloafed assignment
 
 //Idiom - Techniques
+
+//Function Template Instantiation - Produced exacutable code
+//                                - Compiler generates code for each type used in the template
+
+//Deduction - Compiler determines the type of the template parameter
+
+//Generic Function - 
+
+//Is Implicit - 
+
+//Stack - data type that stores data in a first-in, last-out manner
+
+//a = b = c - this is stackability
+
+//
