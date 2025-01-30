@@ -123,4 +123,43 @@ int a[10] = {55}; //First element is 55, rest is 0
 
 //a = b = c - this is stackability
 
-//
+//Amortized Complexity - (worst case) complexity per data or operation
+
+----------------------------------------------------------------------------------------------------
+
+//STL ORGANIZATION
+
+//Container - Data structure that stores values organized in a certain manner
+
+//Iterator - A way to access the values in a container
+
+//Algorithm - way to manipulate data through iterator regardless of container type
+
+//Callback - reference to code, a way to customizes an algorithm's operation
+
+//CONTAINERS
+
+//Containers provides implemetation of commonly used data structures
+
+//Element - stored data
+//    Homogeneous - elements of only one type
+
+//Container Kinds
+//    Ordered - elements may be efficiently accessed in order
+//        Squential
+//        Container Adapters - limit operations of sequential containers for specialized purposed
+//        Associative - element access by value : mapping from keys to values
+//    Unordered associative - hash tables
+//    Others - specialized purpose, legacy
+
+//Sequential Containers
+
+//Vector - random access to elements, amortized constant insertions in back, linear insertions elsewhere
+
+//Deque ("deck") (double-ended queue) - random access to elements, amortized constant insertion in front/back, linear elsewhere
+
+//List (double linked list) - linear access to elements, constant insertion/deletion once located
+
+//std::array (C++11) – fixed size array, knows its size (unlike C-style) can be copied, returned, no insertion/deletion
+
+//std::forward_list (singly-linked list, C++11) – forward search only, less memory for storage than list
